@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* text-align: center; */
+    font-family: "Poppins", serif;
+    padding: 40px;
+}
+
+body.dark{
+    background-color: #27292d;
+    color: #f1f1f1;
+}
+
+h1{
+    font-size: 1.7rem;
+    margin: 1rem 0;
+}
+
+.container{
+    margin-top: 16px;
+    border: 1px solid grey;
+    padding: 1.5rem;
+    background-color: white;
+    color: black;
+}
+
+.container.dark{
+    background-color: #27292d;
+    color: #f1f1f1;
+}
+
+@media(max-width:600px){
+    h1{
+        font-size: 1.3rem;
+        /* margin: 1rem 0; */
+    }
+}
